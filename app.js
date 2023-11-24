@@ -2,21 +2,21 @@ let userAction = prompt ("What action you want to realize? Enter: add, sub, mult
 
 let firstNumber = prompt ("Enter your first number")
 
-let secondtNumber = prompt ("Enter your second number")
+let secondNumber = prompt ("Enter your second number")
 
 switch (userAction) {
     case "add":
-        alert (`${+ firstNumber} + ${+ secondtNumber} = ${+ firstNumber + + secondtNumber}`);
+        alert (`${+ firstNumber} + ${+ secondNumber} = ${+ firstNumber + + secondNumber}`);
         break;
     case "sub":
-        alert (`${firstNumber} - ${secondtNumber} = ${firstNumber - secondtNumber}`);
+        alert (`${firstNumber} - ${secondNumber} = ${firstNumber - secondNumber}`);
         break;
     case "mult":
-        alert (`${firstNumber} * ${secondtNumber} = ${firstNumber * secondtNumber}`);
+        alert (`${firstNumber} * ${secondNumber} = ${firstNumber * secondNumber}`);
         break;
     case "div":
-        if (secondtNumber !== 0) {
-            alert (`${firstNumber} / ${secondtNumber} = ${firstNumber / secondtNumber}`);
+        if (secondNumber !== 0) {
+            alert (`${firstNumber} / ${secondNumber} = ${firstNumber / secondNumber}`);
         }
         else {
             alert ("Can not divide by zero");
